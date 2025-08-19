@@ -1,0 +1,16 @@
+
+
+.edit_btn{
+      height: 50px !important;
+      width: 50px !important;
+      border-radius: 50% !important;
+      background-color: rgb(253, 253, 253) !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+.edit_btn:hover{
+    background-color: rgb(255, 255, 255) !important;
+    opacity: 0.7;
+}

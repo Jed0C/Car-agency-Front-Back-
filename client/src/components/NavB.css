@@ -1,0 +1,110 @@
+
+
+/* body {
+  background: #2d2d7f !important;
+} */
+/* main-header start */
+[data-target="#mainMenu"] {
+  position: sticky;
+  right: 0;
+  z-index: 999;
+  height:25px;
+  
+}
+
+#mainMenu li > a {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: 400;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.main-header.fixed-nav #mainMenu li > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#mainMenu li:not(:last-of-type) {
+  margin-right: 30px;
+}
+
+#mainMenu li > a::before {
+  position: absolute;
+  content: "";
+  width: calc(100% - 1px);
+  height: 1px;
+  background: #fff;
+  bottom: -6px;
+  left: 0;
+
+  -webkit-transform: scale(0, 1);
+  -ms-transform: scale(0, 1);
+  transform: scale(0, 1);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  z-index: -1;
+
+  -webkit-transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
+}
+
+#mainMenu li > a:hover::before,
+#mainMenu li > a.active::before {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.main-header.fixed-nav #mainMenu li > a::before {
+  background: #000;
+}
+
+.main-header {
+  position: sticky;
+  top: 25px;
+  height: 50px !important;
+  z-index: 99;
+  right: 0;
+  width: 100%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  background: transparent;
+
+}
+
+
+.main-header.fixed-nav {
+  top: 0;
+  background: #fff;
+  -webkit-box-shadow: 0 8px 12px -8px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 8px 12px -8px rgba(0, 0, 0, 0.09);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.main-header.fixed-nav .navbar-brand > img:last-of-type {
+  display: block;
+}
+
+.main-header.fixed-nav .navbar-brand > img:first-of-type {
+  display: none;
+}
+.navbar-brand h1 {
+  color: #fff;
+  margin-top: 30px;
+  text-shadow: 2px 2px #000;
+}
+.main-header .navbar-brand img {
+  max-width: 40px;
+  animation: fadeInLeft 0.4s both 0.4s;
+  
+}
+
+

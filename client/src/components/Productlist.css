@@ -1,0 +1,54 @@
+.productlist_section{
+    width: 100%;
+    min-height: 900px;
+    padding-top: 50px;
+}
+.btn_groupe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.btn_groupe button{
+    margin: 0 10px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background : transparent;
+    padding: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_groupe button:hover{
+    
+    border: 0.1px solid rgba(73, 73, 73, 0.562);
+    cursor: pointer;
+}
+
+
+.productlist_title{
+    width: 100%;
+}
+.productlist_title h1{
+    font-size: 2.5rem;
+    max-width: 700px;
+    margin:0 auto 20px;
+    color:rgb(20, 20, 20);
+    
+}
+.productlist_title p{
+    font-size: 1.5rem;
+    max-width: 700px;
+    margin:0 auto 10px;
+    color:rgb(20, 20, 20);
+}
+ .productgrid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+ }

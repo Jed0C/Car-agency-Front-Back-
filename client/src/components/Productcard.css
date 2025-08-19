@@ -1,0 +1,53 @@
+.carta{
+    width: 300px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.897);
+    padding:20px 10px 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+}
+.carta p{
+    font-size: 15px;
+}
+.carta h1{
+    font-size: 15px;
+}
+/* .carta button{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.911);
+    border: none;
+    border-radius: 4px;
+    width: 141.12px;
+    height: 50px;
+    padding: 5px 10px;
+    text-align: center;
+} */
+.carta button:hover{
+    background-color: rgb(70, 69, 69);
+}
+.carta:hover{
+    box-shadow: 0 12px 16px 0 rgba(055, 0, 0, 0.24),0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buy_btn{
+      height: 50px !important;
+      width: 50px !important;
+      border-radius: 50% !important;
+      background-color: rgb(0, 0, 0);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff !important;
+    }
+    .delete_btn{
+      height: 50px !important;
+      width: 50px !important;
+      border-radius: 50% !important;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff !important;
+    }
