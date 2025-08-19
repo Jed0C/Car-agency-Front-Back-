@@ -1,5 +1,6 @@
 import React from 'react'
 import './NavB.css'
+import { Link } from 'react-router-dom'
 
 function NavB() {
   return (
@@ -21,7 +22,8 @@ function NavB() {
             <div className="collapse navbar-collapse" id="mainMenu">
               <ul className="navbar-nav ml-auto text-uppercase f1">
                 <li>
-                  <a href="#home" className="active active-first">home</a>
+                  {/* <a href="#home" className="active active-first">home</a> */}
+                  <Link to="/">home</Link>
                 </li>
                 <li>
                   <a href="#about">about us</a>

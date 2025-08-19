@@ -26,12 +26,9 @@ function App() {
     <div className="App">
       <NavB/>
       
-      {/* <Routes>
-        <Route path="/" element={ <Home/> } />
-        <Route path="about" element={ <About/> } />
-        <Route path="contact" element={ <Contact/> } />
-      </Routes> */}
-      <Hero/>
+      <Routes>
+        <Route path="/" element={ <Hero/> } />
+      </Routes>
       <Productlist ping={ping} setping={setping}/>
       <Addproduct ping={ping} setping={setping}/>
       <Foooter/>
